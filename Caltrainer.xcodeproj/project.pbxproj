@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BADABBEA13F5D21900E6E6D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBE913F5D21900E6E6D9 /* UIKit.framework */; };
+		BADABBEC13F5D21900E6E6D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBEB13F5D21900E6E6D9 /* Foundation.framework */; };
+		BADABBEE13F5D21900E6E6D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBED13F5D21900E6E6D9 /* CoreGraphics.framework */; };
+		BADABBF413F5D21900E6E6D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BADABBF213F5D21900E6E6D9 /* InfoPlist.strings */; };
+		BADABBF613F5D21900E6E6D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABBF513F5D21900E6E6D9 /* main.m */; };
+		BADABBFA13F5D21A00E6E6D9 /* CaltrainerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABBF913F5D21A00E6E6D9 /* CaltrainerAppDelegate.m */; };
+		BADABBFE13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABBFD13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.m */; };
+		BADABC0113F5D21A00E6E6D9 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADABBFF13F5D21A00E6E6D9 /* MainWindow_iPhone.xib */; };
+		BADABC0513F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABC0413F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m */; };
+		BADABC0813F5D21A00E6E6D9 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADABC0613F5D21A00E6E6D9 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BADABBE513F5D21900E6E6D9 /* Caltrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caltrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADABBE913F5D21900E6E6D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BADABBEB13F5D21900E6E6D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BADABBED13F5D21900E6E6D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BADABBF113F5D21900E6E6D9 /* Caltrainer-Info.plist */ = {isa = PBXFileReference; path = "Caltrainer-Info.plist"; sourceTree = "<group>"; };
+		BADABBF313F5D21900E6E6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BADABBF513F5D21900E6E6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BADABBF713F5D21900E6E6D9 /* Caltrainer-Prefix.pch */ = {isa = PBXFileReference; path = "Caltrainer-Prefix.pch"; sourceTree = "<group>"; };
+		BADABBF813F5D21A00E6E6D9 /* CaltrainerAppDelegate.h */ = {isa = PBXFileReference; path = CaltrainerAppDelegate.h; sourceTree = "<group>"; };
+		BADABBF913F5D21A00E6E6D9 /* CaltrainerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaltrainerAppDelegate.m; sourceTree = "<group>"; };
+		BADABBFC13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = CaltrainerAppDelegate_iPhone.h; path = iPhone/CaltrainerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		BADABBFD13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CaltrainerAppDelegate_iPhone.m; path = iPhone/CaltrainerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		BADABC0013F5D21A00E6E6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		BADABC0313F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.h */ = {isa = PBXFileReference; name = CaltrainerAppDelegate_iPad.h; path = iPad/CaltrainerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		BADABC0413F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CaltrainerAppDelegate_iPad.m; path = iPad/CaltrainerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		BADABC0713F5D21A00E6E6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADABBE213F5D21900E6E6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADABBEA13F5D21900E6E6D9 /* UIKit.framework in Frameworks */,
+				BADABBEC13F5D21900E6E6D9 /* Foundation.framework in Frameworks */,
+				BADABBEE13F5D21900E6E6D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADABBDA13F5D21900E6E6D9 = {
+			isa = PBXGroup;
+			children = (
+				BADABBEF13F5D21900E6E6D9 /* Caltrainer */,
+				BADABBE813F5D21900E6E6D9 /* Frameworks */,
+				BADABBE613F5D21900E6E6D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BADABBE613F5D21900E6E6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADABBE513F5D21900E6E6D9 /* Caltrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADABBE813F5D21900E6E6D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BADABBE913F5D21900E6E6D9 /* UIKit.framework */,
+				BADABBEB13F5D21900E6E6D9 /* Foundation.framework */,
+				BADABBED13F5D21900E6E6D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BADABBEF13F5D21900E6E6D9 /* Caltrainer */ = {
+			isa = PBXGroup;
+			children = (
+				BADABBF813F5D21A00E6E6D9 /* CaltrainerAppDelegate.h */,
+				BADABBF913F5D21A00E6E6D9 /* CaltrainerAppDelegate.m */,
+				BADABBFB13F5D21A00E6E6D9 /* iPhone */,
+				BADABC0213F5D21A00E6E6D9 /* iPad */,
+				BADABBF013F5D21900E6E6D9 /* Supporting Files */,
+			);
+			path = Caltrainer;
+			sourceTree = "<group>";
+		};
+		BADABBF013F5D21900E6E6D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BADABBF113F5D21900E6E6D9 /* Caltrainer-Info.plist */,
+				BADABBF213F5D21900E6E6D9 /* InfoPlist.strings */,
+				BADABBF513F5D21900E6E6D9 /* main.m */,
+				BADABBF713F5D21900E6E6D9 /* Caltrainer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BADABBFB13F5D21A00E6E6D9 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BADABBFC13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.h */,
+				BADABBFD13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.m */,
+				BADABBFF13F5D21A00E6E6D9 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BADABC0213F5D21A00E6E6D9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BADABC0313F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.h */,
+				BADABC0413F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m */,
+				BADABC0613F5D21A00E6E6D9 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADABBE413F5D21900E6E6D9 /* Caltrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADABC0B13F5D21A00E6E6D9 /* Build configuration list for PBXNativeTarget "Caltrainer" */;
+			buildPhases = (
+				BADABBE113F5D21900E6E6D9 /* Sources */,
+				BADABBE213F5D21900E6E6D9 /* Frameworks */,
+				BADABBE313F5D21900E6E6D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caltrainer;
+			productName = Caltrainer;
+			productReference = BADABBE513F5D21900E6E6D9 /* Caltrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADABBDC13F5D21900E6E6D9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BADABBDF13F5D21900E6E6D9 /* Build configuration list for PBXProject "Caltrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BADABBDA13F5D21900E6E6D9;
+			productRefGroup = BADABBE613F5D21900E6E6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADABBE413F5D21900E6E6D9 /* Caltrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADABBE313F5D21900E6E6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADABBF413F5D21900E6E6D9 /* InfoPlist.strings in Resources */,
+				BADABC0113F5D21A00E6E6D9 /* MainWindow_iPhone.xib in Resources */,
+				BADABC0813F5D21A00E6E6D9 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADABBE113F5D21900E6E6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADABBF613F5D21900E6E6D9 /* main.m in Sources */,
+				BADABBFA13F5D21A00E6E6D9 /* CaltrainerAppDelegate.m in Sources */,
+				BADABBFE13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.m in Sources */,
+				BADABC0513F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BADABBF213F5D21900E6E6D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADABBF313F5D21900E6E6D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BADABBFF13F5D21A00E6E6D9 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADABC0013F5D21A00E6E6D9 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BADABC0613F5D21A00E6E6D9 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADABC0713F5D21A00E6E6D9 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADABC0913F5D21A00E6E6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BADABC0A13F5D21A00E6E6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADABC0C13F5D21A00E6E6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caltrainer/Caltrainer-Prefix.pch";
+				INFOPLIST_FILE = "Caltrainer/Caltrainer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BADABC0D13F5D21A00E6E6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caltrainer/Caltrainer-Prefix.pch";
+				INFOPLIST_FILE = "Caltrainer/Caltrainer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADABBDF13F5D21900E6E6D9 /* Build configuration list for PBXProject "Caltrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADABC0913F5D21A00E6E6D9 /* Debug */,
+				BADABC0A13F5D21A00E6E6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADABC0B13F5D21A00E6E6D9 /* Build configuration list for PBXNativeTarget "Caltrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADABC0C13F5D21A00E6E6D9 /* Debug */,
+				BADABC0D13F5D21A00E6E6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BADABBDC13F5D21900E6E6D9 /* Project object */;
+}
