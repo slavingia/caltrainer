@@ -7,14 +7,18 @@
 //
 
 #import "CaltrainerAppDelegate.h"
+#import "StationName.h"
 
 @implementation CaltrainerAppDelegate
 
-@synthesize window = _window;
+@synthesize window = _window, c;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.c = [[[ScheduleViewController alloc] initWithNibName:@"ScheduleViewController" bundle:nil] autorelease];
+    [c.view setFrame:CGRectMake(0, 20, 320, 460)];
+    [self.window addSubview:c.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

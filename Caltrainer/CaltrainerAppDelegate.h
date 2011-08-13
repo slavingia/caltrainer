@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScheduleViewController.h"
 
-@interface CaltrainerAppDelegate : NSObject <UIApplicationDelegate>
+@interface CaltrainerAppDelegate : NSObject <UIApplicationDelegate> {
+    
+    ScheduleViewController *c;
+    
+}
 
+@property (nonatomic, retain) ScheduleViewController *c;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end

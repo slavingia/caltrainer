@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2F2B7913F738060063551E /* stations_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2F2B7813F738060063551E /* stations_shadow@2x.png */; };
 		BADABBEA13F5D21900E6E6D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBE913F5D21900E6E6D9 /* UIKit.framework */; };
 		BADABBEC13F5D21900E6E6D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBEB13F5D21900E6E6D9 /* Foundation.framework */; };
 		BADABBEE13F5D21900E6E6D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBED13F5D21900E6E6D9 /* CoreGraphics.framework */; };
@@ -17,25 +18,49 @@
 		BADABC0113F5D21A00E6E6D9 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADABBFF13F5D21A00E6E6D9 /* MainWindow_iPhone.xib */; };
 		BADABC0513F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABC0413F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m */; };
 		BADABC0813F5D21A00E6E6D9 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADABC0613F5D21A00E6E6D9 /* MainWindow_iPad.xib */; };
+		BADABC1113F5D2AD00E6E6D9 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABC0F13F5D2AC00E6E6D9 /* ScheduleViewController.m */; };
+		BADABC1213F5D2AD00E6E6D9 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADABC1013F5D2AD00E6E6D9 /* ScheduleViewController.xib */; };
+		BADABC1D13F5D2F500E6E6D9 /* NavigationBar-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABC1C13F5D2F500E6E6D9 /* NavigationBar-Utilities.m */; };
+		BADABC2113F5D40100E6E6D9 /* blank_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADABC1E13F5D40000E6E6D9 /* blank_header@2x.png */; };
+		BADABC2213F5D40100E6E6D9 /* blank_toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADABC1F13F5D40100E6E6D9 /* blank_toolbar@2x.png */; };
+		BADABC2313F5D40100E6E6D9 /* header_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADABC2013F5D40100E6E6D9 /* header_shadow@2x.png */; };
+		BADABC2513F5D6CA00E6E6D9 /* footer_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADABC2413F5D6CA00E6E6D9 /* footer_shadow@2x.png */; };
+		BADABC2713F5D80700E6E6D9 /* station_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADABC2613F5D80700E6E6D9 /* station_background@2x.png */; };
+		BADABC2A13F5D84200E6E6D9 /* StationName.m in Sources */ = {isa = PBXBuildFile; fileRef = BADABC2913F5D84200E6E6D9 /* StationName.m */; };
+		BADABC3413F5F62100E6E6D9 /* divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADABC3313F5F62100E6E6D9 /* divider@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA2F2B7813F738060063551E /* stations_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stations_shadow@2x.png"; sourceTree = "<group>"; };
 		BADABBE513F5D21900E6E6D9 /* Caltrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caltrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADABBE913F5D21900E6E6D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BADABBEB13F5D21900E6E6D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BADABBED13F5D21900E6E6D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BADABBF113F5D21900E6E6D9 /* Caltrainer-Info.plist */ = {isa = PBXFileReference; path = "Caltrainer-Info.plist"; sourceTree = "<group>"; };
+		BADABBF113F5D21900E6E6D9 /* Caltrainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caltrainer-Info.plist"; sourceTree = "<group>"; };
 		BADABBF313F5D21900E6E6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BADABBF513F5D21900E6E6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BADABBF713F5D21900E6E6D9 /* Caltrainer-Prefix.pch */ = {isa = PBXFileReference; path = "Caltrainer-Prefix.pch"; sourceTree = "<group>"; };
-		BADABBF813F5D21A00E6E6D9 /* CaltrainerAppDelegate.h */ = {isa = PBXFileReference; path = CaltrainerAppDelegate.h; sourceTree = "<group>"; };
+		BADABBF713F5D21900E6E6D9 /* Caltrainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caltrainer-Prefix.pch"; sourceTree = "<group>"; };
+		BADABBF813F5D21A00E6E6D9 /* CaltrainerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaltrainerAppDelegate.h; sourceTree = "<group>"; };
 		BADABBF913F5D21A00E6E6D9 /* CaltrainerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaltrainerAppDelegate.m; sourceTree = "<group>"; };
-		BADABBFC13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = CaltrainerAppDelegate_iPhone.h; path = iPhone/CaltrainerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		BADABBFC13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaltrainerAppDelegate_iPhone.h; path = iPhone/CaltrainerAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		BADABBFD13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CaltrainerAppDelegate_iPhone.m; path = iPhone/CaltrainerAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		BADABC0013F5D21A00E6E6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		BADABC0313F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.h */ = {isa = PBXFileReference; name = CaltrainerAppDelegate_iPad.h; path = iPad/CaltrainerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		BADABC0313F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaltrainerAppDelegate_iPad.h; path = iPad/CaltrainerAppDelegate_iPad.h; sourceTree = "<group>"; };
 		BADABC0413F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CaltrainerAppDelegate_iPad.m; path = iPad/CaltrainerAppDelegate_iPad.m; sourceTree = "<group>"; };
 		BADABC0713F5D21A00E6E6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		BADABC0E13F5D2AC00E6E6D9 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		BADABC0F13F5D2AC00E6E6D9 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		BADABC1013F5D2AD00E6E6D9 /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		BADABC1B13F5D2F500E6E6D9 /* NavigationBar-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NavigationBar-Utilities.h"; sourceTree = "<group>"; };
+		BADABC1C13F5D2F500E6E6D9 /* NavigationBar-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NavigationBar-Utilities.m"; sourceTree = "<group>"; };
+		BADABC1E13F5D40000E6E6D9 /* blank_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank_header@2x.png"; sourceTree = "<group>"; };
+		BADABC1F13F5D40100E6E6D9 /* blank_toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank_toolbar@2x.png"; sourceTree = "<group>"; };
+		BADABC2013F5D40100E6E6D9 /* header_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_shadow@2x.png"; sourceTree = "<group>"; };
+		BADABC2413F5D6CA00E6E6D9 /* footer_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer_shadow@2x.png"; sourceTree = "<group>"; };
+		BADABC2613F5D80700E6E6D9 /* station_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "station_background@2x.png"; sourceTree = "<group>"; };
+		BADABC2813F5D84200E6E6D9 /* StationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationName.h; sourceTree = "<group>"; };
+		BADABC2913F5D84200E6E6D9 /* StationName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationName.m; sourceTree = "<group>"; };
+		BADABC3313F5F62100E6E6D9 /* divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divider@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +109,20 @@
 			children = (
 				BADABBF813F5D21A00E6E6D9 /* CaltrainerAppDelegate.h */,
 				BADABBF913F5D21A00E6E6D9 /* CaltrainerAppDelegate.m */,
+				BADABC1E13F5D40000E6E6D9 /* blank_header@2x.png */,
+				BADABC3313F5F62100E6E6D9 /* divider@2x.png */,
+				BADABC2613F5D80700E6E6D9 /* station_background@2x.png */,
+				BADABC1F13F5D40100E6E6D9 /* blank_toolbar@2x.png */,
+				BADABC2413F5D6CA00E6E6D9 /* footer_shadow@2x.png */,
+				BA2F2B7813F738060063551E /* stations_shadow@2x.png */,
+				BADABC2013F5D40100E6E6D9 /* header_shadow@2x.png */,
+				BADABC1B13F5D2F500E6E6D9 /* NavigationBar-Utilities.h */,
+				BADABC1C13F5D2F500E6E6D9 /* NavigationBar-Utilities.m */,
+				BADABC0E13F5D2AC00E6E6D9 /* ScheduleViewController.h */,
+				BADABC0F13F5D2AC00E6E6D9 /* ScheduleViewController.m */,
+				BADABC2813F5D84200E6E6D9 /* StationName.h */,
+				BADABC2913F5D84200E6E6D9 /* StationName.m */,
+				BADABC1013F5D2AD00E6E6D9 /* ScheduleViewController.xib */,
 				BADABBFB13F5D21A00E6E6D9 /* iPhone */,
 				BADABC0213F5D21A00E6E6D9 /* iPad */,
 				BADABBF013F5D21900E6E6D9 /* Supporting Files */,
@@ -172,6 +211,14 @@
 				BADABBF413F5D21900E6E6D9 /* InfoPlist.strings in Resources */,
 				BADABC0113F5D21A00E6E6D9 /* MainWindow_iPhone.xib in Resources */,
 				BADABC0813F5D21A00E6E6D9 /* MainWindow_iPad.xib in Resources */,
+				BADABC1213F5D2AD00E6E6D9 /* ScheduleViewController.xib in Resources */,
+				BADABC2113F5D40100E6E6D9 /* blank_header@2x.png in Resources */,
+				BADABC2213F5D40100E6E6D9 /* blank_toolbar@2x.png in Resources */,
+				BADABC2313F5D40100E6E6D9 /* header_shadow@2x.png in Resources */,
+				BADABC2513F5D6CA00E6E6D9 /* footer_shadow@2x.png in Resources */,
+				BADABC2713F5D80700E6E6D9 /* station_background@2x.png in Resources */,
+				BADABC3413F5F62100E6E6D9 /* divider@2x.png in Resources */,
+				BA2F2B7913F738060063551E /* stations_shadow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +233,9 @@
 				BADABBFA13F5D21A00E6E6D9 /* CaltrainerAppDelegate.m in Sources */,
 				BADABBFE13F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPhone.m in Sources */,
 				BADABC0513F5D21A00E6E6D9 /* CaltrainerAppDelegate_iPad.m in Sources */,
+				BADABC1113F5D2AD00E6E6D9 /* ScheduleViewController.m in Sources */,
+				BADABC1D13F5D2F500E6E6D9 /* NavigationBar-Utilities.m in Sources */,
+				BADABC2A13F5D84200E6E6D9 /* StationName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +355,7 @@
 				BADABC0D13F5D21A00E6E6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
