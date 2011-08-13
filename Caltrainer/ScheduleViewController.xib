@@ -45,9 +45,9 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIScrollView" id="314347163">
+					<object class="IBUIScrollView" id="635138675">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">268</int>
+						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{102, 44}, {218, 372}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
@@ -59,7 +59,7 @@
 					</object>
 					<object class="IBUIScrollView" id="945483651">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">268</int>
+						<int key="NSvFlags">276</int>
 						<string key="NSFrame">{{0, 44}, {102, 372}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
@@ -71,7 +71,7 @@
 					</object>
 					<object class="IBUIImageView" id="197886766">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">274</int>
+						<int key="NSvFlags">290</int>
 						<string key="NSFrameSize">{320, 44}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
@@ -84,9 +84,9 @@
 							<string key="NSResourceName">blank_header.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="997600219">
+					<object class="IBUIImageView" id="167026983">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">274</int>
+						<int key="NSvFlags">272</int>
 						<string key="NSFrame">{{102, 44}, {1, 372}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
@@ -101,7 +101,7 @@
 					</object>
 					<object class="IBUIImageView" id="150594756">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">290</int>
 						<string key="NSFrame">{{0, 44}, {320, 1}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
@@ -116,11 +116,11 @@
 					</object>
 					<object class="IBUIImageView" id="559744142">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">266</int>
 						<string key="NSFrame">{{0, 415}, {320, 1}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="997600219"/>
+						<reference key="NSNextKeyView" ref="167026983"/>
 						<string key="NSReuseIdentifierKey">_NS:541</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -131,11 +131,11 @@
 					</object>
 					<object class="IBUILabel" id="719109783">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">290</int>
 						<string key="NSFrameSize">{320, 44}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="314347163"/>
+						<reference key="NSNextKeyView" ref="635138675"/>
 						<string key="NSReuseIdentifierKey">_NS:311</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -223,7 +223,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="314347163"/>
+						<reference key="source" ref="635138675"/>
 						<reference key="destination" ref="372490531"/>
 					</object>
 					<int key="connectionID">14</int>
@@ -232,7 +232,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">timetable</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="314347163"/>
+						<reference key="destination" ref="635138675"/>
 					</object>
 					<int key="connectionID">15</int>
 				</object>
@@ -257,8 +257,8 @@
 							<reference ref="1065449755"/>
 							<reference ref="559744142"/>
 							<reference ref="945483651"/>
-							<reference ref="314347163"/>
-							<reference ref="997600219"/>
+							<reference ref="635138675"/>
+							<reference ref="167026983"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -311,12 +311,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
-						<reference key="object" ref="314347163"/>
+						<reference key="object" ref="635138675"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">16</int>
-						<reference key="object" ref="997600219"/>
+						<reference key="object" ref="167026983"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>

@@ -16,7 +16,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.c = [[[ScheduleViewController alloc] initWithNibName:@"ScheduleViewController" bundle:nil] autorelease];
-    [c.view setFrame:CGRectMake(0, 20, 320, 460)];
+    DebugLog(@"%@", self.window);
+    [c.view setFrame:CGRectMake(0, 20, self.window.frame.size.width, self.window.frame.size.height-20)];
     [self.window addSubview:c.view];
     
     [self.window makeKeyAndVisible];
