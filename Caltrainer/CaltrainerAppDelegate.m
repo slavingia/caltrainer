@@ -3,22 +3,32 @@
 //  Caltrainer
 //
 //  Created by Sahil Lavingia on 8/12/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Little Big Things, LLC. All rights reserved.
 //
 
 #import "CaltrainerAppDelegate.h"
 #import "StationName.h"
+#import "FlurryAPI.h"
 
 @implementation CaltrainerAppDelegate
 
-@synthesize window = _window, c;
+@synthesize window = _window, c, nc;
+
+void uncaughtExceptionHandler(NSException *exception) {
+    [FlurryAPI logError:@"Uncaught" message:@"Crash!" exception:exception];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+    [FlurryAPI startSession:@"JQSJMVXYM23FXK17IB71"];
+
     self.c = [[[ScheduleViewController alloc] initWithNibName:@"ScheduleViewController" bundle:nil] autorelease];
-    DebugLog(@"%@", self.window);
     [c.view setFrame:CGRectMake(0, 20, self.window.frame.size.width, self.window.frame.size.height-20)];
-    [self.window addSubview:c.view];
+
+    self.nc = [[[UINavigationController alloc] initWithRootViewController:c] autorelease];
+    [nc setNavigationBarHidden:YES animated:NO];
+    
+    [self.window addSubview:nc.view];
     
     [self.window makeKeyAndVisible];
     return YES;

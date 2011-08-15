@@ -11,6 +11,8 @@
 @implementation UINavigationBar (CustomImage)
 
 - (void)drawRect:(CGRect)rect {
+    [self setTintColor:[UIColor colorWithHue:0 saturation:0.85f brightness:.58f alpha:1.0f]];
+
     UIImage *image = [UIImage imageNamed:@"blank_header.png"];
     [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
 }
