@@ -27,6 +27,7 @@
 		BA3C697C13F798680037E712 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3C697A13F798680037E712 /* AboutViewController.xib */; };
 		BA3C698613F79B8F0037E712 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3C698513F79B8F0037E712 /* MessageUI.framework */; };
 		BA3C699E13F7A0C10037E712 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3C699D13F7A0C10037E712 /* libFlurry.a */; };
+		BA8BBAA514072BB800A9DE69 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA8BBAA414072BB800A9DE69 /* Entitlements.plist */; };
 		BADABBEA13F5D21900E6E6D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBE913F5D21900E6E6D9 /* UIKit.framework */; };
 		BADABBEC13F5D21900E6E6D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBEB13F5D21900E6E6D9 /* Foundation.framework */; };
 		BADABBEE13F5D21900E6E6D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADABBED13F5D21900E6E6D9 /* CoreGraphics.framework */; };
@@ -76,6 +77,7 @@
 		BA3C699B13F7A0C10037E712 /* FlurryOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryOffer.h; sourceTree = "<group>"; };
 		BA3C699C13F7A0C10037E712 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
 		BA3C699D13F7A0C10037E712 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		BA8BBAA414072BB800A9DE69 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		BADABBE513F5D21900E6E6D9 /* Caltrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caltrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADABBE913F5D21900E6E6D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BADABBEB13F5D21900E6E6D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				BADABBF113F5D21900E6E6D9 /* Caltrainer-Info.plist */,
+				BA8BBAA414072BB800A9DE69 /* Entitlements.plist */,
 				BADABBF213F5D21900E6E6D9 /* InfoPlist.strings */,
 				BADABBF513F5D21900E6E6D9 /* main.m */,
 				BADABBF713F5D21900E6E6D9 /* Caltrainer-Prefix.pch */,
@@ -326,6 +329,7 @@
 				BA21690B13F834810018EE77 /* Icon.png in Resources */,
 				BA21690C13F834810018EE77 /* Icon@2x.png in Resources */,
 				BA21690D13F834810018EE77 /* iTunesArtwork.png in Resources */,
+				BA8BBAA514072BB800A9DE69 /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,8 +387,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sahil Lavingia (47E873U9KB)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sahil Lavingia (47E873U9KB)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Little Big Things LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Little Big Things LLC";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -399,8 +403,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PROVISIONING_PROFILE = "3A502752-5515-49E1-A0B6-3773D0564D77";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3A502752-5515-49E1-A0B6-3773D0564D77";
+				PROVISIONING_PROFILE = "69BB28AE-AFB3-474C-8FFC-2C9190D54A2A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "69BB28AE-AFB3-474C-8FFC-2C9190D54A2A";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

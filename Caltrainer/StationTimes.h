@@ -12,10 +12,14 @@
     NSArray *times;
     int height;
     int y;
+    BOOL trains;
 }
 
+@property BOOL trains;
 @property int height;
 @property int y;
 @property (nonatomic, retain) NSArray *times;
+
+- (id)initWithFrame:(CGRect)frame andTrains:(BOOL)t;
 
 @end
